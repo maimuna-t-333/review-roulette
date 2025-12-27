@@ -1,16 +1,47 @@
-# React + Vite
+# Review & Roulette
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application where users can submit reviews and spin a roulette wheel for a chance to win.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Review submission form
+- ✅ Roulette wheel unlock after review
+- ✅ Random Win/Lose outcome
+- ✅ Clean and responsive UI
+- ✅ Built with modern tech stack
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - Frontend framework
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **shadcn/ui** - UI components
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone https://github.com/maimuna-t-333/review-roulette.git
+cd review-roulette
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## How It Works
+
+1. User lands on the review page
+2. User writes and submits a review
+3. After submission, the roulette wheel becomes available
+4. User clicks "Spin the Wheel"
+5. Random outcome: Win or Lose (50/50 chance)
+
